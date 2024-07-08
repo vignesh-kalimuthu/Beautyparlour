@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "./App.css"
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import Navbar from "./components/navbar/Topnavbar"
+import Banner from "./components/Banner"
+import Carousel from './components/Carousel';
+import MassageWork from './components/MassageWork';
+import Divider from './components/Divider';
+import Services from './components/Services';
+import MassageTime from './components/MassageTime';
+import PriceRange from './components/PriceRange';
+import Vaccancy from './components/Vaccancy';
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<Navbar />
+<Banner />
+
+<Carousel />
+<MassageWork />
+<Divider />
+<Services /> 
+<Divider />
+<MassageTime />
+<PriceRange />
+<Vaccancy />
+<Footer />
     </div>
+    
   );
 }
 
