@@ -59,7 +59,8 @@ Join Us                  </button></div>
         <div class="img-wrap"><img src={pic1} alt="" width="830" height="446" />
         </div>
       </div>
-    </div>
+{/* git commit -m "Your commit message" */}
+</div>
   </div>
   
   <div>
